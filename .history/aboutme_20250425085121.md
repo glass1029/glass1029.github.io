@@ -1,0 +1,15 @@
+---
+layout: page
+title: About me
+permalink: /about/
+---
+
+### 💻
+
+- Node.js + TypeScript 기반 서버 개발  
+- PostgreSQL  
+- AWS 인프라 운영 
+
+---
+
+> 🧾 개발하면서 정리해두고 싶은 이야기들

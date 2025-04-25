@@ -1,14 +1,13 @@
 # --- Required options --- #
 
-title: "glass의 개발 블로그"
-author: "glass"
+title: "glass1029의 개발 블로그"
+author: "glass1029"
 
 # --- Navigation --- #
 
 navbar-links:
   소개: "about"
   글 모음: "blog"
-  GitHub: "https://github.com/glass"
 
 # --- Avatar --- #
 
@@ -18,13 +17,13 @@ round-avatar: true
 # --- Social links --- #
 
 social-network-links:
-  github: glass
-  email: glass@email.com
+  github: glass1029
+  email: glass1029.dev@gmail.com
   rss: true
 
 # --- General settings --- #
 
-url-pretty: "glass.dev"
+url-pretty: "glass1029"
 title-on-all-pages: true
 excerpt_length: 50
 feed_show_excerpt: true

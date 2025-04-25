@@ -3,6 +3,7 @@ layout: null
 ---
 
 @import url("pygment_highlights.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 :root {
   /* config file CSS variables */
@@ -31,7 +32,7 @@ html {
 }
 
 body {
-  font-family: var(--body-font);
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.125rem;
   color: var(--text-col);
   position: relative;
@@ -53,7 +54,7 @@ p {
   margin: 1.875rem 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: var(--header-font);
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 800;
   line-height: 1.1;
 }
@@ -154,7 +155,7 @@ img {
 .navbar-custom {
   background-color: var(--navbar-col);
   border-bottom: 1px solid var(--navbar-border-col);
-  font-family: var(--header-font);
+  font-family: 'Noto Sans KR', sans-serif;
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
     background-attachment: fixed;
@@ -446,7 +447,7 @@ footer .list-inline .list-inline-item {
   margin-bottom: 0.5rem;
 }
 footer .copyright {
-  font-family: var(--header-font);
+  font-family: 'Noto Sans KR', sans-serif;
   text-align: center;
   margin-bottom: 0;
   margin-top: 0;
@@ -458,7 +459,7 @@ footer .theme-by {
 footer .footer-custom-content {
   text-align: center;
   margin-bottom: 0.9375rem;
-  font-family: var(--header-font);
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -500,7 +501,7 @@ footer .footer-custom-content {
 
 .post-preview a {
   text-decoration: none;
-  font-family: var(--header-font);
+  font-family: 'Noto Sans KR', sans-serif;
   color: var(--text-col);
 }
 
@@ -525,7 +526,7 @@ footer .footer-custom-content {
   font-size: 1.125rem;
   font-style: italic;
   margin: 0 0 0.625rem;
-  font-family: var(--body-font);
+  font-family: 'Noto Sans KR', sans-serif;
 }
 .post-heading .post-meta {
   display: inline-block;
@@ -602,7 +603,7 @@ footer .footer-custom-content {
 /* --- Tags --- */
 
 .blog-tags {
-  font-family: var(--header-font);
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 0.9375rem;
   margin: 1.875rem 0;
 }
@@ -649,7 +650,7 @@ footer .footer-custom-content {
 }
 
 #full-tags-list {
-  font-family: var(--header-font);
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #full-tags-list .tag-entry {
@@ -723,7 +724,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   font-size: 1.6875rem;
   line-height: 1.1;
   display: block;
-  font-family: var(--header-font);
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 300;
   margin: 0.625rem 0 0;
 }
@@ -748,7 +749,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   padding: 0.3125rem 0.625rem;
   font-size: 0.6875rem;
   color: #EEE;
-  font-family: var(--header-font);
+  font-family: 'Noto Sans KR', sans-serif;
   right: 0;
   bottom: 0;
   display: none;
@@ -807,7 +808,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 
 .pagination .page-item .page-link {
-  font-family: var(--header-font);
+  font-family: 'Noto Sans KR', sans-serif;
   text-transform: uppercase;
   font-size: 0.875rem;
   font-weight: 800;
@@ -1023,7 +1024,7 @@ pre {
 
 /* Search bar */
 #beautifuljekyll-search-overlay {
-  font-family: var(--header-font);
+  font-family: 'Noto Sans KR', sans-serif;
   display: none;
   z-index: 999999;
   position: fixed;
